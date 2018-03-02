@@ -1,0 +1,23 @@
+.add-task{
+    background: #db4c3f 0 0;
+    color: #fff !important;
+    text-shadow: none;
+    border: 1px solid transparent;
+}
+
+.add-task:hover {
+    border-color: #b0281a;
+    background-color: #c53727;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.close-task{
+    border: none;
+    color: #db4c3f;
+    background-image: none !important;
+    background-color: white;
+    font-weight: bold;
+}
+.mar-md{
+    margin-top: 20px;
+}

@@ -1,0 +1,63 @@
+body{
+  background-color: #fafafa;
+}
+
+.modal-header {
+  padding: 15px;
+  background-color: #db4c3f;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.label-default {
+  background-color: #db4c3f;
+}
+
+.app {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  top: 0;
+  color: white;
+  z-index: 200;
+  width: 100%;
+  border-bottom: solid 1px #ca2100;
+  background-color: #db4c3f;
+  -webkit-transition: height 200ms ease-in;
+  transition: height 200ms ease-in;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.app-header > img{
+  max-width: 50px;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
